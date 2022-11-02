@@ -1,0 +1,33 @@
+@import "./base.scss";
+@import "./fonts.scss";
+@import "./colors.scss";
+@import "./mixins.scss";
+@import "./container.scss";
+@import "./header.scss";
+@import "./forms.scss";
+@import "./loader.scss";
+@import "./buttons.scss";
+@import "./heading.scss";
+@import "./todolist.scss";
+@import "./footer.scss";
+
+.is-hidden {
+  display: none;
+}
+
+.is-centered {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px auto 0;
+}
+
+.is-completed {
+  color: $color-3--2;
+  text-decoration: line-through;
+}
+
+.site-content {
+  min-height: 1000px;
+}

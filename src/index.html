@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+
+<header class="header-wrapper">
+    <div class="header-wrapper__container">
+        <div class="header">
+            <div class="header__logo">
+                <div class="header__logo-img">
+                    <img src="./images/logo-todolist.svg" alt="logo header">
+                </div>
+            </div>
+            <div class="header__auth">
+                <button type="button" class="btn" data-page="home">Get started</button>
+                <button type="button" class="btn is-hidden" data-page="toDoList">To do list</button>
+                <button type="button" class="btn" data-page="signUp">Sign Up</button>
+                <button type="button" class="btn" data-page="signIn">Sign In</button>
+                <button type="button" class="logoutBtn btn is-hidden" data-page="logOut">logOut</button>
+            </div>
+        </div>
+    </div>
+</header>
+<div class="content"></div>
+<div class="loader-spiner"></div>
+<main class="site-content" role="main">
+    <div class="to-do-list">
+        <div class="to-do-list__wrapper"></div>
+        <ul class="to-do-list__items">
+        </ul>
+    </div>
+</main>
+<footer class="footer">
+    <a class="footer__link" href="https://github.com/studentstudycs50">Created by Svetlana Veklych</a>
+</footer>
+<script src="js/main.min.js"></script>
+<script src="https://kit.fontawesome.com/f500d1989a.js" crossorigin="anonymous"></script>
+</body>
+</html>

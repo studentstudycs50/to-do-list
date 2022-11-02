@@ -1,0 +1,55 @@
+fieldset {
+  background: transparent;
+  border: 0;
+  margin: 0;
+  min-width: inherit;
+  padding: 0;
+}
+
+.form {
+  display: block;
+  margin: 20px 0 55px;
+
+  &__fieldset {
+    align-items: center;
+    box-shadow: 0 0 15px rgb(0 0 0 / 20%);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 20px auto 30px;
+    max-width: 600px;
+    padding: 50px;
+
+    &:empty {
+      display: none;
+    }
+  }
+
+  &__label {
+    margin: 0 0 10px;
+  }
+}
+
+label {
+  color: $color-1--1;
+  cursor: pointer;
+  display: block;
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+input {
+  background-color: $color-white;
+  border: 1px solid $color-3--1;
+  border-radius: 4px;
+  color: $color-3--1;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin: 0 0 20px;
+  min-height: 63px;
+  overflow: hidden;
+  padding: 0.9em 1.67em;
+  width: 100%;
+}
